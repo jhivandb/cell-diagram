@@ -7,12 +7,21 @@
 name: Node.js Package
 
 on:
-  release:
-    types: [created]
-
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - 'package.json'
+      - 'src/**'
+      - 'lib/**'
+      - '.github/workflows/npm-publish-github-packages.yml' 
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ${{ github.workspace }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4

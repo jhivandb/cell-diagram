@@ -60,7 +60,7 @@ export const ConnectionName: React.FC<any> = styled.span`
 interface IconWrapperStyleProps {
     previewMode: boolean;
 }
-export const IconWrapper: React.FC<IconWrapperStyleProps> = styled.div`
+export const IconWrapper = styled.div<IconWrapperStyleProps>`
     height: 32px;
     width: 32px;
     svg {

@@ -13,7 +13,7 @@ import styled from "@emotion/styled";
 interface PortNodeStyleProps {
     isSelected: boolean;
 }
-export const PortNode: React.FC<PortNodeStyleProps> = styled.div`
+export const PortNode = styled.div<PortNodeStyleProps>`
     position: absolute;
     display: flex;
     justify-content: center;
@@ -26,25 +26,25 @@ export const PortNode: React.FC<PortNodeStyleProps> = styled.div`
     margin: -6px 0;
 `;
 
-export const TopPortNode: React.FC<PortNodeStyleProps> = styled(PortNode)`
+export const TopPortNode = styled(PortNode)<PortNodeStyleProps>`
     top: 0;
     margin: -6px 0;
     align-items: flex-start;
 `;
 
-export const BottomPortNode: React.FC<PortNodeStyleProps> = styled(PortNode)`
+export const BottomPortNode = styled(PortNode)<PortNodeStyleProps>`
     bottom: 0;
     margin: -6px 0;
     align-items: flex-end;
 `;
 
-export const LeftPortNode: React.FC<PortNodeStyleProps> = styled(PortNode)`
+export const LeftPortNode = styled(PortNode)<PortNodeStyleProps>`
     left: 0;
     margin: 0 -6px;
     justify-content: flex-start;
 `;
 
-export const RightPortNode: React.FC<PortNodeStyleProps> = styled(PortNode)`
+export const RightPortNode = styled(PortNode)<PortNodeStyleProps>`
     right: 0;
     margin: 0 -6px;
     justify-content: flex-end;

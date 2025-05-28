@@ -62,12 +62,13 @@
     "webpack-dev-server": "^4.11.1"
   },
   "author": "wso2",
-  "license": "UNLICENSED",
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wso2/cell-diagram.git"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://npm.pkg.github.com/",
+    "access": "public"
   }
 }

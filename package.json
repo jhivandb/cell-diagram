@@ -1,5 +1,5 @@
 {
-  "name": "@wso2-enterprise/choreo-cell-diagram",
+  "name": "@wso2/cell-diagram",
   "version": "3.2.24050304",
   "description": "Generate the cell diagram for Choreo projects.",
   "files": [
@@ -68,6 +68,6 @@
     "url": "git+https://github.com/wso2/cell-diagram.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org/"
   }
 }

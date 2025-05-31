@@ -1,6 +1,6 @@
 {
   "name": "@jhivandb/cell-diagram",
-  "version": "3.3.0",
+  "version": "3.4.0",
   "description": "Generate the diagram based on the cell architecture.",
   "files": [
     "lib"

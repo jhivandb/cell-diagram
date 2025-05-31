@@ -12,8 +12,8 @@ env:
   CI: true
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
-permissions: {} #reset
-
+permissions:
+      contents: write
 jobs:
   release:
     strategy:
